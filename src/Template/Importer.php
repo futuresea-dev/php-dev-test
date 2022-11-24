@@ -13,12 +13,10 @@ class Importer extends Layout
     {
         $content = $this->header->render($context);
 
-        // @codingStandardsIgnoreStart
         return <<<HTML
                     <div class="btn_div">
                         Loading json success.
                     </div>
-HTML;
-        // @codingStandardsIgnoreEnd
+                HTML;
     }
 }
